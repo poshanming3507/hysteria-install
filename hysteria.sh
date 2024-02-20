@@ -222,7 +222,7 @@ inst_hyv1(){
     fi
     ${PACKAGE_INSTALL[int]} curl wget sudo qrencode procps iptables-persistent netfilter-persistent
 
-    wget -N https://raw.githubusercontent.com/Misaka-blog/hysteria-install/main/hy1/install_server.sh
+    wget -N https://raw.githubusercontent.com/poshanming3507/hysteria-install/main/hy1/install_server.sh
     bash install_server.sh
     rm -f install_server.sh
 
@@ -375,7 +375,7 @@ inst_hyv2(){
     fi
     ${PACKAGE_INSTALL[int]} curl wget sudo qrencode procps iptables-persistent netfilter-persistent
 
-    wget -N https://raw.githubusercontent.com/Misaka-blog/hysteria-install/main/hy2/install_server.sh
+    wget -N https://raw.githubusercontent.com/poshanming3507/hysteria-install/main/hy2/install_server.sh
     bash install_server.sh
     rm -f install_server.sh
 
